@@ -6,9 +6,9 @@ public class lecture extends employee {
     }
 
     public lecture(String nip, String name, double salary, String nidn) {
-        this.nip = nip;
-        this.name = name;
-        this.salary = salary;
+        super.nip = nip;
+        super.name = name;
+        super.salary = salary;
         this.nidn = nidn;
         System.out.println("objects of the lecturer class are created with parameterized constructors");
     }
