@@ -1,3 +1,5 @@
+import testpackage.employee;
+
 public class lecture extends employee {
     public String nidn;
 
