@@ -4,7 +4,7 @@
 public class employee {
     public String nip;
     public String name;
-    public double salary;
+    private double salary;
 
     public employee() {
         System.out.println("Object from employee");
