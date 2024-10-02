@@ -6,11 +6,8 @@ public class lecture extends employee {
     }
 
     public String getAllInfo() {
-        String info = "";
-        info += "NIP        : " + super.nip + "\n";
-        info += "NIDN       : " + this.nidn + "\n";
-        info += "Name       : " + super.name + "\n";
-        info += "Salary     : " + super.salary + "\n";
+        String info = getlnfo();
+        info += "NIDN       : " + nidn + "\n";
         return info;
     }
 }
