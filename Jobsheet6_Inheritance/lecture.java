@@ -7,10 +7,10 @@ public class lecture extends employee {
 
     public String getAllInfo() {
         String info = "";
-        info += "NIP        : " + nip + "\n";
-        info += "NIDN       : " + nidn + "\n";
-        info += "Name       : " + name + "\n";
-        info += "Salary     : " + salary + "\n";
+        info += "NIP        : " + this.nip + "\n";
+        info += "NIDN       : " + this.nidn + "\n";
+        info += "Name       : " + this.name + "\n";
+        info += "Salary     : " + this.salary + "\n";
         return info;
     }
 }
