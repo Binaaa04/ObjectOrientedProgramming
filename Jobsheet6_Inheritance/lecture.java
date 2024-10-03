@@ -6,6 +6,7 @@ public class lecture extends employee {
     }
 
     public lecture(String nip, String name, double salary, String nidn) {
+        super();
         super.nip = nip;
         super.name = name;
         super.salary = salary;
