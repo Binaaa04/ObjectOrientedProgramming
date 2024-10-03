@@ -6,8 +6,8 @@ public class lecture extends employee {
     }
 
     public lecture(String nip, String name, double salary, String nidn) {
-        this.nidn = nidn;
         super(nip, name, salary);
+        this.nidn = nidn;
     }
 
     public String getAllInfo() {
