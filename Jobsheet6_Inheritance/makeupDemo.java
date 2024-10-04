@@ -8,7 +8,7 @@ public class makeupDemo {
         cushionDesc.setProductID("44540001");
         System.out.println(cushionDesc.getAllInfo());
 
-        liptint liptintDesc = new liptint("PK02", "Makeover", "Liptint", 169.000);
+        liptint liptintDesc = new liptint("PK02", "Makeover", "Liptint", 169.00);
         liptintDesc.setProductID("43252493");
         System.out.println(liptintDesc.getAllInfo());
     }
